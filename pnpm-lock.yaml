@@ -15,7 +15,7 @@ importers:
     dependencies:
       nuxt3-web-pkg: link:../../packages/nuxt3-web-pkg
     devDependencies:
-      '@nuxt/devtools': 1.0.0-beta.0_nuxt@3.7.4
+      '@nuxt/devtools': 1.0.0-beta.0_nuxt@3.7.4+vite@4.4.11
       nuxt: 3.7.4
       vue: 3.3.4
       vue-router: 4.2.5_vue@3.3.4
@@ -30,7 +30,7 @@ importers:
     dependencies:
       nuxt3-web-pkg: link:../../packages/nuxt3-web-pkg
     devDependencies:
-      '@nuxt/devtools': 1.0.0-beta.0_nuxt@3.7.4
+      '@nuxt/devtools': 1.0.0-beta.0_nuxt@3.7.4+vite@4.4.11
       nuxt: 3.7.4
       vue: 3.3.4
       vue-router: 4.2.5_vue@3.3.4
@@ -965,7 +965,7 @@ packages:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
     dev: true
 
-  /@nuxt/devtools-kit/1.0.0-beta.0_nuxt@3.7.4:
+  /@nuxt/devtools-kit/1.0.0-beta.0_nuxt@3.7.4+vite@4.4.11:
     resolution: {integrity: sha512-1B/b8DDY+gjILnTDKLjeF5b1t1+IK61+W7KvMwNTyV7ziiPxD3aOVI5dShnHQhjFd+GU1NGri807cWn7O1tSOw==}
     peerDependencies:
       nuxt: ^3.7.4
@@ -975,6 +975,7 @@ packages:
       '@nuxt/schema': 3.7.4
       execa: 7.2.0
       nuxt: 3.7.4
+      vite: 4.4.11
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -996,7 +997,7 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /@nuxt/devtools/1.0.0-beta.0_nuxt@3.7.4:
+  /@nuxt/devtools/1.0.0-beta.0_nuxt@3.7.4+vite@4.4.11:
     resolution: {integrity: sha512-Q69U8PTsbZDLZaK5GNWyjy8wE7YKoOlhvjdUXLNgoJjZVbHciaCc8nlqu+DFcNXt8coM3QW1zPJ5iycNT2CsJQ==}
     hasBin: true
     peerDependencies:
@@ -1004,7 +1005,7 @@ packages:
       vite: '*'
     dependencies:
       '@antfu/utils': 0.7.6
-      '@nuxt/devtools-kit': 1.0.0-beta.0_nuxt@3.7.4
+      '@nuxt/devtools-kit': 1.0.0-beta.0_nuxt@3.7.4+vite@4.4.11
       '@nuxt/devtools-wizard': 1.0.0-beta.0
       '@nuxt/kit': 3.7.4
       birpc: 0.2.14
@@ -1035,8 +1036,9 @@ packages:
       simple-git: 3.20.0
       sirv: 2.0.3
       unimport: 3.4.0
-      vite-plugin-inspect: 0.7.40_@nuxt+kit@3.7.4
-      vite-plugin-vue-inspector: 3.7.2
+      vite: 4.4.11
+      vite-plugin-inspect: 0.7.40_xykqcluo6lpxgyjllt4qheq4ji
+      vite-plugin-vue-inspector: 3.7.2_vite@4.4.11
       which: 3.0.1
       ws: 8.14.2
     transitivePeerDependencies:
@@ -5791,7 +5793,7 @@ packages:
       vscode-uri: 3.0.8
     dev: true
 
-  /vite-plugin-inspect/0.7.40_@nuxt+kit@3.7.4:
+  /vite-plugin-inspect/0.7.40_xykqcluo6lpxgyjllt4qheq4ji:
     resolution: {integrity: sha512-tsfva6MCg0ch6ckReWHvJ/9xf/zjTuJvakONf2qcMBB/iu9JqiRixfxMa/yLGrlNaBe6fUZHOVhtN2Me3Kthow==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -5810,12 +5812,13 @@ packages:
       open: 9.1.0
       picocolors: 1.0.0
       sirv: 2.0.3
+      vite: 4.4.11
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true
 
-  /vite-plugin-vue-inspector/3.7.2:
+  /vite-plugin-vue-inspector/3.7.2_vite@4.4.11:
     resolution: {integrity: sha512-PSe/t2RoVzB64Ofuec7W/Z0FuKHzmU7esLrMOGwX+BNyXt8dAMtYbz4wL/TqoH1zVPDdjQecQpM5+K9VnBYpAg==}
     peerDependencies:
       vite: ^3.0.0-0 || ^4.0.0-0
@@ -5829,6 +5832,7 @@ packages:
       '@vue/compiler-dom': 3.3.4
       kolorist: 1.8.0
       magic-string: 0.30.4
+      vite: 4.4.11
     transitivePeerDependencies:
       - supports-color
     dev: true
