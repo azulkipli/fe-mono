@@ -2,8 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    ['@nuxtjs/eslint-module', { 
-      lintOnStart: true,
-     }]
-  ]
-})
+    [
+      "@nuxtjs/eslint-module",
+      {
+        lintOnStart: true,
+      },
+    ],
+  ],
+});
