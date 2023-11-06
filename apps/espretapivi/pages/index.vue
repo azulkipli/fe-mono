@@ -1,3 +1,15 @@
+<script lang="ts">
+import { useCounterStore } from "@/stores/counter";
+
+export default defineComponent({
+  setup() {
+    const store = useCounterStore();
+    const { increment } = store;
+    const count = computed(() => store.count);
+    return { increment, count };
+  },
+});
+</script>
 <!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <ul class="list-none m-2">
@@ -32,4 +44,10 @@
     <p class="py-1 m-0">Coba ini itu</p>
     <p class="py-1 m-0">Coba ini itu</p>
   </article>
+  <div class="counter-wrap p-3">
+    <p>Counter: {{ count }}</p>
+    <button type="button" class="border px-2 py-1 mt-3" @click="increment">
+      Increment
+    </button>
+  </div>
 </template>
