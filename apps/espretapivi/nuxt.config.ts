@@ -8,5 +8,6 @@ export default defineNuxtConfig({
         lintOnStart: true,
       },
     ],
+    "@nuxtjs/tailwindcss",
   ],
 });
