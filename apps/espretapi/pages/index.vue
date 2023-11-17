@@ -18,6 +18,7 @@ export default defineComponent({
     <p class="m-0 py-1">Coba itu</p>
     <p class="m-0 py-1">Coba ini itu</p>
   </div>
+  <HelloWorld />
   <div class="prose mb-3 mt-5 px-2">
     <h1 class="m-0 lg:prose-xl">Pinia Demo</h1>
     <p>
