@@ -4,11 +4,11 @@
   <div id="defaultLayout">
     <!-- Layout: default -->
     <header>
-      <ul class="list-none m-2">
+      <ul class="m-2 list-none">
         <li class="inline">
           <NuxtLink
             to="/"
-            class="px-2 py-1 font-semibold duration-100 hover:text-gray-500 text-linkedin-primary"
+            class="px-2 py-1 font-semibold text-linkedin-primary duration-100 hover:text-gray-500"
           >
             Home
           </NuxtLink>
@@ -16,7 +16,7 @@
         <li class="inline">
           <NuxtLink
             to="/about"
-            class="px-2 py-1 font-semibold duration-100 hover:text-gray-500 text-linkedin-primary"
+            class="px-2 py-1 font-semibold text-linkedin-primary duration-100 hover:text-gray-500"
           >
             About
           </NuxtLink>
@@ -24,7 +24,7 @@
         <li class="inline">
           <NuxtLink
             to="/contact"
-            class="px-2 py-1 font-semibold duration-100 hover:text-gray-500 text-linkedin-primary"
+            class="px-2 py-1 font-semibold text-linkedin-primary duration-100 hover:text-gray-500"
           >
             Contact
           </NuxtLink>

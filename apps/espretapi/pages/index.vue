@@ -12,22 +12,22 @@ export default defineComponent({
 </script>
 <!-- eslint-disable vue/no-multiple-template-root -->
 <template>
-  <div class="mb-3 px-2 prose">
-    <h1 class="lg:prose-xl m-0">Hola hali helo</h1>
-    <p class="py-1 m-0">Coba ini</p>
-    <p class="py-1 m-0">Coba itu</p>
-    <p class="py-1 m-0">Coba ini itu</p>
+  <div class="prose mb-3 px-2">
+    <h1 class="m-0 lg:prose-xl">Hola hali helo</h1>
+    <p class="m-0 py-1">Coba ini</p>
+    <p class="m-0 py-1">Coba itu</p>
+    <p class="m-0 py-1">Coba ini itu</p>
   </div>
-  <div class="mt-5 mb-3 px-2 prose">
-    <h1 class="lg:prose-xl m-0">Pinia Demo</h1>
+  <div class="prose mb-3 mt-5 px-2">
+    <h1 class="m-0 lg:prose-xl">Pinia Demo</h1>
     <p>
       <span class="mr-2">Counter: </span
       ><span class="font-bold">{{ count }}</span>
     </p>
-    <button type="button" class="border px-2 py-1 mt-3 mr-1" @click="increase">
+    <button type="button" class="mr-1 mt-3 border px-2 py-1" @click="increase">
       increase
     </button>
-    <button type="button" class="border px-2 py-1 mt-3" @click="decrease">
+    <button type="button" class="mt-3 border px-2 py-1" @click="decrease">
       decrease
     </button>
   </div>
